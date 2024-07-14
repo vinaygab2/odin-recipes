@@ -1,7 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background: rgb(148, 251, 251);
+    background: lightgoldenrodyellow;
+}
+
+.main-container {
+    max-width: 600px;
+    border: 2px solid black;
+    background: cyan;
+    margin: 50px auto;
+    padding: 8px;
+    height: 200px;
+    text-align: center;
 }
 
 a {
-    color: brown;
+    color: yellow;
+    text-decoration: none;
+}
+
+ul {
+    padding: 8px;
+    margin: 32px;
+}
+
+li {
+    list-style-type: none;
+    padding: 8px;
+    margin: 10px;
+    display: inline;
+    border: 2px solid darkgreen;
+    background: teal;
 }
